@@ -12,10 +12,11 @@ While using Robot Framework for our daily test automation, I realised that check
 
 ## How to install this listener
 ### Prerequisite
-- Python with required libraries as specified in requirements.txt
+- Python with required libraries as specified in [requirements.txt](/requirements.txt)
 - Robot Framework with test files
+- The listener [ms_teams_listener.py](/ms_teams_listener.py)
 - Incoming webhook for Microsoft Teams Channel. Please see [official Microsoft Documentation to create an incoming webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)
-- The listener expects certain values in environment variable. 
+- The listener expects certain values as environment variables. 
   - WEBHOOK_URL=\<URL generated from step 1\>
   - BUILD_URL= \<Standard Jenkins environment variable\>
   - BUILD_NUMBER= \<Standard Jenkins environment variable\>
