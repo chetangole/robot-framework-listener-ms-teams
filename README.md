@@ -1,11 +1,11 @@
 # Robot Framework Listener for Microsoft Teams
-Send notification of your Robot test suit execution to a configured MS Teams channel in real time. 
+Send notification of your Robot test suit execution to a configured Microsoft Teams channel in real time. 
 
 ## Why use this listener
-While using Robot Framework for our daily test automation, I realised that checking the result of test execution isn't easy task, you need to login into the Jenkins and search for the report. 
+While using Robot Framework for our daily test automation, I realised that checking the result of test execution isn't easy task, you need to login into the Jenkins and search for the report. There was a need to automate the way we see the results. 
 
 ## What this listener does?
-- Automated report generation without logging into the Jenkins Server. All the reports will be available in a configured MS Teams channel with color coding and statistics about failed and passed test cases.
+- Automated report generation without logging into the Jenkins Server. All the reports will be available in a configured Microsoft Teams channel with color coding and statistics about failed and passed test cases.
 - If the test automation is very huge, the Jenkins reports are usually available only after the complete execution. Using this listener you will be able to see the reports of your test suit execution as soon as each suit completes. 
 ### Screenshot of the Microsoft Teams Card
 ![Screenshot](/screenshot.png?raw=true "Screenshot of Successful Result")
