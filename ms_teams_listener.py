@@ -1,3 +1,8 @@
+###################################################################
+# Author: Chetan Gole
+# https://github.com/chetangole/robot-framework-listener-ms-teams/
+###################################################################
+
 import os
 import pymsteams                                               
 
