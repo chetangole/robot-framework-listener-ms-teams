@@ -7,7 +7,7 @@ While using Robot Framework for our daily test automation, I realised that check
 ## What this listener does?
 - Automated report generation without logging into the Jenkins Server. All the reports will be available in a configured MS Teams channel with color coding and statistics about failed and passed test cases.
 - If the test automation is very huge, the Jenkins reports are usually available only after the complete execution. Using this listener you will be able to see the reports of your test suit execution as soon as each suit completes. 
-
+### Screenshot of the Microsoft Teams Card
 ![Screenshot](/screenshot.png?raw=true "Screenshot of Successful Result")
 
 ## How to install this listener
