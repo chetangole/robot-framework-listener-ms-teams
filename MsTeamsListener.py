@@ -6,7 +6,7 @@
 import os
 import pymsteams                                               
 
-class TeamsListener():
+class MsTeamsListener():
     ROBOT_LISTENER_API_VERSION = 2
 
 def end_suite(self, name, attributes):
