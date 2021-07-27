@@ -14,7 +14,7 @@ While using Robot Framework for our daily test automation, I realised that check
 ### Prerequisite
 - Python with required libraries as specified in [requirements.txt](/requirements.txt)
 - Robot Framework with test files
-- The listener [ms_teams_listener.py](/ms_teams_listener.py)
+- The listener [MsTeamsListener.py](/MsTeamsListener.py)
 - Incoming webhook for Microsoft Teams Channel. Please see [official Microsoft Documentation to create an incoming webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)
 - The listener expects certain values as environment variables. 
   - WEBHOOK_URL=\<URL generated from step 1\>
@@ -25,7 +25,7 @@ While using Robot Framework for our daily test automation, I realised that check
 Robot Framework has a listener interface that can be used to receive notifications about test execution. You can simply include the file as a part of your listener using below command while executing the test. You can read more about how to use listener in [official documentation of Robot Framework](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#listener-interface).
 
 ```
-robot --listener path/to/ms_teams_listener.py tests.robot
+robot --listener path/to/MsTeamsListener.py tests.robot
 ```
 
 ## FAQ
