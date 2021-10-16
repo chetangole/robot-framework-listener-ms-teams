@@ -19,7 +19,7 @@ class MsTeamsListener():
     	if longname == "Suites":
     		return
     
-    	teams_channel = os.environ['teamsChannel'].strip()
+    	teams_channel = os.environ['WEBHOOK_URL'].strip()
     	# return if channel is empty
     	if not teams_channel:
     		return
