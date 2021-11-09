@@ -16,7 +16,7 @@ class MsTeamsListener():
     		longname = attributes['longname']
     
     	# getting two calls for each suit, ignoring for parent
-    	if longname == "Suites":
+    	if attributes['suites']:
     		return
     
     	teams_channel = os.environ['WEBHOOK_URL'].strip()
